@@ -1,8 +1,8 @@
 # docker-apache-flask
 Dockerfile with related build files.  
-Builds a Docker container from Ubuntu 16.05 LTS official, installs Apache, Python 2.7, Flask, and realted files, and sets-up up a demo "Hello Word" site running under the Flask microframework (/var/www/FlaskApp).  
+Builds a Docker container from Ubuntu 16.04 LTS official (https://hub.docker.com/_/ubuntu/), installs Apache, Python 2.7, Flask, and realted files, and sets-up up a demo "Hello Word" site running under the Flask microframework (/var/www/FlaskApp).  
 
-Do a "docker pull nhsb1/docker-apache-flask" to run this.
+Do a "docker pull nhsb1/docker-apache-flask" to quickstart without doing anything else. Or.. 
 
 Or To build it yourself:  
 Get the files contained in this repo, put them in one subdirectory, then build them locally and run it.  
