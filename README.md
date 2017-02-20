@@ -7,7 +7,7 @@ Assumes you've already installed Docker (https://docs.docker.com/engine/installa
 "$ docker pull nhsb1/docker-apache-flask"  
 "$ sudo docker run -d --name apache_flask --net=host nhsb1/docker-apache-flask  
 
-Find the IP address of your host:
+Find the IP address of your host:  
 "$ ip addr"
 
 You should get something that looks like the below, if you bring up a web browser and point it at your host's IP address:  
