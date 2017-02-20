@@ -26,7 +26,7 @@ wget https://github.com/nhsb1/docker-apache-flask/raw/master/docker-entrypoint.s
 wget https://raw.githubusercontent.com/nhsb1/docker-apache-flask/master/flaskapp.wsgi 
 
 Build the container using the files you just downloaded locally:  
-sudo docker build -t youtdockerhubaccount/apache_flask .
+sudo docker build -t yourdockerhubaccount/apache_flask .
 
 Run the container you just built locally:  
 sudo docker run -d --name apache_flask -v /host_directory_to_mount_in_container:/path_tobe_mounted_in_container -net=host yourdockerhubaccount/apache_flask  
