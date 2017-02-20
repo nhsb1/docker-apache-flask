@@ -5,7 +5,8 @@ Builds a Docker container from Ubuntu 16.04 LTS official (https://hub.docker.com
 Do a "docker pull nhsb1/docker-apache-flask" to quickstart without doing anything else. Or.. 
 
 Or To build it yourself:  
-Get the files contained in this repo, put them in one subdirectory, then build them locally and run it.  
+Get the files contained in this repo, put them in one subdirectory, then build them locally and run it.    
+
 Get the raw files:  
 wget https://raw.githubusercontent.com/nhsb1/docker-apache-flask/master/Dockerfile  
 wget https://raw.githubusercontent.com/nhsb1/docker-apache-flask/master/FlaskApp.conf  
