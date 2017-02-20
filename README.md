@@ -35,7 +35,7 @@ Explanation of the run command:
 Run the container with a short-name (apache_flask), detached (-d), mounting a directory (/host_directory_to_mount_in_container) from your host (the machine running docker),  to a directory inside your container (/path_tobe_mounted_in_container), using the host's network adapter to expose the new site (--net=host), with the local build your just created (yourdockerhubaccount/apache_flask).
 
 Now that you've got it built and running.  
-Do a "sudo docker ps" to show it, find the host's IP address ("ip addr") and try loading it in a web browser (http://ipaddressofyourhost), and you should see the "Hello World" image that's embedded above.
+Do a "sudo docker ps" to show it, find the host's IP address ("ip addr") and try loading it in a web browser (http://ipaddressofyourhost), and you should see the "Hello World!" image that's embedded above.
 
 
 
