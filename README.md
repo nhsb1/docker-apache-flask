@@ -5,7 +5,7 @@ Builds out a Docker container from Ubuntu 16.05 LTS official, installs Apache, P
 
 Do a "docker pull nhsb1/docker-apache-flask" to run this.
 
-Or To build it yourself:
+Or To build it yourself:  
 Get the files contained in this repo, put them in one subdirectory, then build them locally and run it.  
 wget https://raw.githubusercontent.com/nhsb1/docker-apache-flask/master/Dockerfile  
 wget https://raw.githubusercontent.com/nhsb1/docker-apache-flask/master/FlaskApp.conf  
