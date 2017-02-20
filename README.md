@@ -4,8 +4,8 @@ Builds a Docker container from Ubuntu 16.04 LTS official (https://hub.docker.com
 
 Quickstart:  
 Assumes you've already installed Docker (https://docs.docker.com/engine/installation/linux/ubuntu/)  
-"$ docker pull nhsb1/docker-apache-flask"
-"$ sudo docker run -d --name apache_flask --net=host nhsb1/docker-apache-flask
+"$ docker pull nhsb1/docker-apache-flask"  
+"$ sudo docker run -d --name apache_flask --net=host nhsb1/docker-apache-flask  
 
 
 Or To build it yourself:  
