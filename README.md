@@ -7,10 +7,16 @@ Assumes you've already installed Docker (https://docs.docker.com/engine/installa
 "$ docker pull nhsb1/docker-apache-flask"  
 "$ sudo docker run -d --name apache_flask --net=host nhsb1/docker-apache-flask  
 
+Find the IP address of your host:
+"$ ip addr"
+
+You should get something that looks like the below, if you bring up a web browser and point it at your host's IP address:  
+
+<img width="152" alt="apacheflashrunning" src="https://cloud.githubusercontent.com/assets/12847315/23138683/bbe165c4-f776-11e6-8f64-354438cb6511.png">
+
 
 Or To build it yourself:  
-Get the files contained in this repo, put them in one subdirectory, then build them locally and run it.   
-<img width="152" alt="apacheflashrunning" src="https://cloud.githubusercontent.com/assets/12847315/23138683/bbe165c4-f776-11e6-8f64-354438cb6511.png">
+Get the files contained in this repo, put them in one subdirectory, then built it and run it.   
 
 Get the raw files:  
 wget https://raw.githubusercontent.com/nhsb1/docker-apache-flask/master/Dockerfile  
